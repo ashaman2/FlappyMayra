@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\build\\intermediates\\res\\merged\\debug\\raw\\crash.wav",
+        "source": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\src\\main\\res\\raw\\crash.wav"
+    },
+    {
+        "merged": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\build\\intermediates\\res\\merged\\debug\\raw\\coin.ogg",
+        "source": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\src\\main\\res\\raw\\coin.ogg"
+    },
+    {
+        "merged": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\build\\intermediates\\res\\merged\\debug\\raw\\cow.wav",
+        "source": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\src\\main\\res\\raw\\cow.wav"
+    },
+    {
+        "merged": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\build\\intermediates\\res\\merged\\debug\\raw\\nyan_cat_theme.mp3",
+        "source": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\src\\main\\res\\raw\\nyan_cat_theme.mp3"
+    },
+    {
+        "merged": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\build\\intermediates\\res\\merged\\debug\\raw\\pass.ogg",
+        "source": "C:\\Users\\seanm\\StudioProjects\\FlappyCow2\\flappyCow\\src\\main\\res\\raw\\pass.ogg"
+    }
+]
