@@ -1,5 +1,5 @@
 /**
- * The cow that is controlled by the player
+ * The cow_old that is controlled by the player
  * 
  * @author Lars Harmsen
  * Copyright (c) <2014> <Lars Harmsen - Quchen>
@@ -36,9 +36,9 @@ public class Cow extends PlayableCharacter {
 			globalBitmap = Util.getScaledBitmapAlpha8(game, R.drawable.cow);
 		}
 		this.bitmap = globalBitmap;
-		this.width = this.bitmap.getWidth()/(colNr = 8);	// The image has 8 frames in a row
-		this.height = this.bitmap.getHeight()/4;			// and 4 in a column
-		this.frameTime = 3;		// the frame will change every 3 runs
+		this.width = this.bitmap.getWidth();	// The image has 8 frames in a row
+		this.height = this.bitmap.getHeight();			// and 4 in a column
+		//this.frameTime = 0;		// the frame will change every 3 runs
 		this.y = game.getResources().getDisplayMetrics().heightPixels / 2;	// Startposition in in the middle of the screen
 		
 		if(sound == -1){
@@ -62,7 +62,7 @@ public class Cow extends PlayableCharacter {
 	 * Calls super.move
 	 * and manages the frames. (flattering cape)
 	 */
-	@Override
+	/*@Override
 	public void move(){
 		changeToNextFrame();
 		super.move();
@@ -82,7 +82,7 @@ public class Cow extends PlayableCharacter {
 		if(this.accessory != null){
 			this.accessory.moveTo(this.x, this.y);
 		}
-	}
+	}*/
 
 	@Override
 	public void draw(Canvas canvas) {
@@ -94,14 +94,14 @@ public class Cow extends PlayableCharacter {
 
 	/**
 	 * Calls super.dead
-	 * And changes the frame to a dead cow -.-
+	 * And changes the frame to a dead cow_old -.-
 	 */
-	@Override
+	/*@Override
 	public void dead() {
 		this.row = 3;
 		this.frameTime = 3;
 		super.dead();
-	}
+	}*/
 	
 	@Override
 	public void revive() {

@@ -364,7 +364,7 @@ public class GameView extends SurfaceView{
 	}
 	
 	/**
-	 * return the speed of the obstacles/cow
+	 * return the speed of the obstacles/cow_old
 	 */
 	public int getSpeedX(){
 		// 16 @ 720x1280 px
